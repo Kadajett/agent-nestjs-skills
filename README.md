@@ -6,17 +6,17 @@ A structured repository for creating and maintaining NestJS Best Practices optim
 
 ## Installation
 
-Install this skill using [add-skill](https://github.com/vercel-labs/add-skill):
+Install this skill using [skills](https://github.com/vercel-labs/skills):
 
 ```bash
 # GitHub shorthand
-npx add-skill Kadajett/agent-nestjs-skills
+npx skills add Kadajett/agent-nestjs-skills
 
 # Install globally (available across all projects)
-npx add-skill Kadajett/agent-nestjs-skills --global
+npx skills add Kadajett/agent-nestjs-skills --global
 
 # Install for specific agents
-npx add-skill Kadajett/agent-nestjs-skills -a claude-code -a cursor
+npx skills add Kadajett/agent-nestjs-skills -a claude-code -a cursor
 ```
 
 ### Supported Agents
@@ -139,4 +139,4 @@ When adding or modifying rules:
 ## Acknowledgments
 
 - Inspired by the [Vercel React Best Practices](https://github.com/vercel-labs/agent-skills) skill structure
-- Compatible with [add-skill](https://github.com/vercel-labs/add-skill) for easy installation across coding agents
+- Compatible with [skills](https://github.com/vercel-labs/skills) for easy installation across coding agents
