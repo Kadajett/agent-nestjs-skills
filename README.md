@@ -6,6 +6,20 @@
 
 A structured repository for creating and maintaining NestJS Best Practices optimized for agents and LLMs.
 
+---
+
+<div align="center">
+  <a href="https://semfora.ai">
+    <img src="assets/semfora-logo.svg" alt="Semfora" width="380">
+  </a>
+</div>
+
+> **From the maintainer:** I built this skill because agents write better NestJS when they can see real context. Context is also my day job: I founded [Semfora](https://semfora.ai), a semantic code analysis engine that hands coding agents call graphs, module maps, and change blast radius through nine MCP tools.
+>
+> Semfora launches on [Product Hunt on Tuesday, July 28](https://www.producthunt.com/products/semfora?launch=semfora). Support there on launch day means a lot.
+
+---
+
 ## Installation
 
 Install this skill using [skills](https://github.com/vercel-labs/skills):
