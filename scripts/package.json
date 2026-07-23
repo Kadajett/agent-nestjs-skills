@@ -5,7 +5,7 @@
   "description": "Build scripts for NestJS Best Practices skillset",
   "scripts": {
     "build": "npx ts-node build-agents.ts",
-    "build:watch": "npx nodemon --watch ../rules --ext md --exec 'npx ts-node build-agents.ts'"
+    "build:watch": "npx nodemon --watch ../skills/nestjs-best-practices/rules --ext md --exec 'npx ts-node build-agents.ts'"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

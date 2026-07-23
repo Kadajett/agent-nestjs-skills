@@ -30,10 +30,12 @@ npx skills add Kadajett/agent-nestjs-skills -a claude-code -a cursor
 
 ## Structure
 
-- `rules/` - Individual rule files (one per rule)
-  - `_sections.md` - Section metadata (titles, impacts, descriptions)
-  - `_template.md` - Template for creating new rules
-  - `area-description.md` - Individual rule files
+- `skills/nestjs-best-practices/` - The installable skill (this is what `skills add` copies into your project)
+  - `SKILL.md` - Skill entry point and quick reference
+  - `rules/` - Individual rule files (one per rule)
+    - `_sections.md` - Section metadata (titles, impacts, descriptions)
+    - `_template.md` - Template for creating new rules
+    - `area-description.md` - Individual rule files
 - `scripts/` - Build scripts and utilities
 - `metadata.json` - Document metadata (version, organization, abstract)
 - __`AGENTS.md`__ - Compiled output (generated)
@@ -54,7 +56,7 @@ npx skills add Kadajett/agent-nestjs-skills -a claude-code -a cursor
 
 ## Creating a New Rule
 
-1. Copy `rules/_template.md` to `rules/area-description.md`
+1. Copy `skills/nestjs-best-practices/rules/_template.md` to `skills/nestjs-best-practices/rules/area-description.md`
 2. Choose the appropriate area prefix:
    - `arch-` for Architecture (Section 1)
    - `di-` for Dependency Injection (Section 2)
