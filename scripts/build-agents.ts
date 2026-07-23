@@ -117,7 +117,7 @@ function readMetadata(): any {
 }
 
 function readRules(): Rule[] {
-  const rulesDir = path.join(__dirname, '..', 'rules');
+  const rulesDir = path.join(__dirname, '..', 'skills', 'nestjs-best-practices', 'rules');
   const files = fs.readdirSync(rulesDir)
     .filter(f => f.endsWith('.md') && !f.startsWith('_'));
 

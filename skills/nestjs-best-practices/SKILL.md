@@ -4,7 +4,7 @@ description: NestJS best practices and architecture patterns for building produc
 license: MIT
 metadata:
   author: Kadajett
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # NestJS Best Practices
@@ -127,4 +127,5 @@ Each rule file contains:
 
 ## Full Compiled Document
 
-For the complete guide with all rules expanded: `AGENTS.md`
+For the complete guide with all rules expanded in a single document, see
+[AGENTS.md in the repository](https://github.com/Kadajett/agent-nestjs-skills/blob/main/AGENTS.md).
